@@ -69,7 +69,7 @@ namespace MSStore.CLI.Commands.Submission
 
                             if (submissionCommit.Status != null)
                             {
-                                ctx.SuccessStatus(_ansiConsole, $"Submission Commited with status [green u]{submissionCommit.Status}[/]");
+                                ctx.SuccessStatus(_ansiConsole, $"Submission Committed with status [green u]{submissionCommit.Status}[/]");
                                 return 0;
                             }
 

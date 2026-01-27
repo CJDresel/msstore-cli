@@ -158,7 +158,7 @@ namespace MSStore.CLI.UnitTests
                     FakeApps[0].Id!
                 ]);
 
-            result.Error.Should().Contain("Submission Commited with status");
+            result.Error.Should().Contain("Submission Committed with status");
         }
 
         [TestMethod]
